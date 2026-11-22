@@ -1,0 +1,38 @@
+/* Kismet Harbor Plotting Studio. Scoped to .kh-studio-* to protect existing pages. */
+.kh-studio-header{margin:20px 0 24px;padding:28px 30px;background:var(--light,#f5e6d3);border:1px solid #e9d8cc;border-radius:16px}
+.kh-studio-header h1{font-size:clamp(2rem,4vw,3.3rem);font-family:Georgia,serif;color:var(--dark,#8b3a3a);margin:8px 0}
+.kh-studio-header p{max-width:720px;color:#6f5851;line-height:1.7;margin:0}
+.kh-studio-tabs,.kh-studio-filters{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+.kh-studio-pill,.kh-studio-filter{border:1px solid #dcbfb0;border-radius:999px;background:#fffaf6;padding:10px 16px;cursor:pointer;color:#704d44;font:inherit}
+.kh-studio-pill.active,.kh-studio-filter.active{color:#fff;background:#8b3a3a;border-color:#8b3a3a}
+.kh-studio-main{background:#fffaf6;border:1px solid #e7d6c9;border-radius:16px;padding:22px;min-height:250px}
+.kh-studio-main h2{font-family:Georgia,serif;color:#794439;margin:0 0 12px}
+.kh-studio-controls{display:flex;flex-wrap:wrap;align-items:end;gap:14px}
+.kh-studio-controls label,.kh-studio-build-form label,.kh-studio-form label{display:flex;flex:1 1 180px;flex-direction:column;gap:7px;color:#5b463f;font-size:14px}
+.kh-studio-controls select,.kh-studio-controls input,.kh-studio-build-form select,.kh-studio-build-form input,.kh-studio-form input,.kh-studio-form textarea{font:inherit;box-sizing:border-box;width:100%;padding:10px;border:1px solid #ddc8bb;border-radius:8px;background:#fff;color:#42352f}
+.kh-studio-form textarea{min-height:130px;resize:vertical}
+.kh-studio-search{flex:2 1 240px}
+.kh-studio-layout{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(250px,.85fr);gap:18px;margin-top:18px}
+.kh-studio-graph,.kh-studio-detail{background:#fff;border:1px solid #e7d9d0;border-radius:14px;padding:17px;min-width:0}
+.kh-studio-graph-top,.kh-studio-pagination{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.kh-studio-svg{display:block;width:100%;height:auto;min-height:330px;color:#654e45}
+.kh-studio-detail h2{margin:8px 0 12px;font-size:1.5rem}
+.kh-studio-tag{display:inline-block;padding:5px 12px;border-radius:999px;background:color-mix(in srgb,var(--tagcolor) 18%,white);color:#574039;font-size:12px;font-weight:700}
+.kh-studio-description{white-space:pre-line;line-height:1.7;margin:20px 0}
+.kh-studio-extra{padding:12px 0;border-top:1px solid #ede1d9}
+.kh-studio-extra summary{cursor:pointer;font-weight:700}
+.kh-studio-idea{margin-top:18px}
+.kh-studio-form{display:flex;flex-direction:column;gap:12px;margin-top:15px}
+.kh-studio-build-form{display:flex;flex-wrap:wrap;gap:14px;align-items:end;margin:20px 0}
+.kh-studio-build-form button{align-self:end}
+.kh-studio-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:18px}
+.kh-studio-opportunity{background:#fff;border:1px solid #e9d8cd;border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.kh-studio-opportunity h3{margin:0;color:#73483e;font-family:Georgia,serif;font-size:1.2rem}
+.kh-studio-opportunity p{margin:0;line-height:1.6}
+.kh-studio-opportunity details{border-top:1px solid #e9d8cd;padding-top:9px}
+.kh-studio-opportunity summary{cursor:pointer}
+.kh-studio-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:auto;padding-top:8px}
+.kh-studio-actions a{color:#8b3a3a;text-decoration:underline}
+.kh-studio-surprise-result{max-width:650px;margin-top:24px}
+.kh-studio-nav{white-space:nowrap}
+@media(max-width:760px){.kh-studio-layout{grid-template-columns:1fr}.kh-studio-header{padding:20px}.kh-studio-main{padding:14px}.kh-studio-svg{min-height:240px}.kh-studio-build-form{display:grid;grid-template-columns:1fr}.kh-studio-controls{display:block}.kh-studio-controls>*{margin-bottom:10px}}
